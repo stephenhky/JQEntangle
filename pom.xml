@@ -8,5 +8,13 @@
     <artifactId>jqentangle</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-native-platform</artifactId>
+            <version>0.7.2</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

@@ -1,4 +1,4 @@
-package com.kwankee.jqentangle;
+package com.kwankee.quantum.jqentangle;
 
 public class testSchmidtDecomposition {
 }
