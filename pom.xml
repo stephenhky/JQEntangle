@@ -6,7 +6,12 @@
 
     <groupId>com.kwankee</groupId>
     <artifactId>jqentangle</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>quantum-core</module>
+        <module>bipartite-entangle</module>
+    </modules>
 
     <dependencies>
         <dependency>
