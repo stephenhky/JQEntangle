@@ -11,5 +11,11 @@
 
     <artifactId>bipartite-entangle</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.kwankee.quantum</groupId>
+            <artifactId>quantum-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
