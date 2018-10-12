@@ -14,7 +14,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.kwankee.quantum</groupId>
+            <groupId>com.kwankee</groupId>
             <artifactId>quantum-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
