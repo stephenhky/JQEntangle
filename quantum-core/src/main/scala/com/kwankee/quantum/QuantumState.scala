@@ -11,8 +11,8 @@ class QuantumState(nbStates : Int = 2) {
       .reduce((a, b) => a+b))
 
   def normalize() : Unit = {
-    val norm = norm()
-    Range(0, nbStates).foreach(i => state.putScalar(i, 0, state.getDouble(i, 0) / norm))
+    val normval = norm()
+    Range(0, nbStates).foreach(i => state.putScalar(i, 0, state.getDouble(i, 0) / normval))
   }
 
   def getCoef(i :Int) : Double = state.getDouble(i, 0)
